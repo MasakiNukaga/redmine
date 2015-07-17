@@ -1,0 +1,25 @@
+From 2d5dffc8004978f932d6a492f8f31c270d818eea Mon Sep 17 00:00:00 2001
+From: MasakiNukaga <masakinukaga@masakinukaga-VirtualBox>
+Date: Sun, 12 Jul 2015 14:33:26 +0900
+Subject: fix typo japanese translate
+
+---
+ config/locales/ja.yml |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/config/locales/ja.yml b/config/locales/ja.yml
+index 3e083fb..dc956ed 100644
+--- a/config/locales/ja.yml
++++ b/config/locales/ja.yml
+@@ -187,7 +187,7 @@ ja:
+   notice_feeds_access_key_reseted: Atomアクセスキーを初期化しました。
+   notice_api_access_key_reseted: APIアクセスキーを初期化しました。
+   notice_failed_to_save_issues: "全%{total}件中%{count}件のチケットが保存できませんでした: %{ids}."
+-  notice_failed_to_save_members: "メンバーの保存に失敗しました: %{errors}."
++  notice_failed_to_save_members: "メンバーの保存に失敗しました: %{errors}"
+   notice_no_issue_selected: "チケットが選択されていません! 更新対象のチケットを選択してください。"
+   notice_account_pending: アカウントを作成しました。システム管理者の承認待ちです。
+   notice_default_data_loaded: デフォルト設定をロードしました。
+-- 
+1.7.5.4
+
